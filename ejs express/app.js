@@ -5,7 +5,7 @@ const mongoose = require('mongoose')
     // express app
 const app = express();
 //connect to mongodb
-const dbURI = 'mongodb+srv://filipeufc:cromice123@mydatabasetest.pifgg.mongodb.net/node-tuts?retryWrites=true&w=majority'
+const dbURI = 'mongodb+srv://filipeufc:Cromice123@mydatabasetest.pifgg.mongodb.net/node-tuts?retryWrites=true&w=majority'
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true })
     .then((result) => console.log('conected to db'))
     .catch((err) => console.log(err));
